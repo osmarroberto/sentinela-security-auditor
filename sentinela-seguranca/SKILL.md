@@ -1,5 +1,6 @@
+---
 name: sentinela-seguranca
-description: Audita segurança de aplicações, APIs e infraestrutura com 61 verificações, incluindo Supabase, Firebase, autorização, sessões, lógica de negócio, cadeia de deploy e IA. Use em revisão de código, pré-deploy e investigação de falhas.
+description: Audita a segurança de aplicações, APIs e infraestrutura com 61 controles. Use em revisões de código, permissões, Supabase, Firebase, testes de segurança e verificações pré-deploy.
 ---
 
 # SENTINELA — Agente Sênior de Auditoria de Segurança de Sistemas
