@@ -8,10 +8,13 @@ O SENTINELA orienta o Claude a revisar código e configurações, identificar ri
 
 ## Downloads
 
+> **Publicação em andamento:** o código-fonte, as matrizes e a documentação já estão disponíveis. O ZIP instalável e o PDF serão enviados separadamente; os links binários ainda não estão ativos.
+
+
 | Arquivo | Finalidade |
 |---|---|
-| **[Baixar Skill SENTINELA 3.0 (.zip)](downloads/Skill_Sentinela_Seguranca_Claude_V3.zip)** | Pacote para importar como Skill no Claude |
-| **[Guia de capacidades (.pdf)](docs/SENTINELA_3.0_Guia_Completo_de_Capacidades.pdf)** | Apresentação visual das 61 verificações |
+| **[Baixar código da Skill (pasta)](sentinela-seguranca/)** | Arquivos-fonte de instalação e referência; use **Code → Download ZIP** para baixar o repositório |
+| **Guia de capacidades (.pdf)** | Publicação do PDF ainda pendente |
 | **[Prompt completo (.md)](docs/PROMPT_COMPLETO_SENTINELA_CLAUDE_V3.md)** | Instruções integrais para leitura e adaptação |
 | [SKILL.md](sentinela-seguranca/SKILL.md) | Instruções principais da Skill |
 
@@ -33,7 +36,7 @@ Sessões e tokens; OAuth e recuperação de contas; XSS/CSRF; SSRF; lógica de n
 
 ## Instalação no Claude
 
-1. Baixe o arquivo **[Skill SENTINELA 3.0 (.zip)](downloads/Skill_Sentinela_Seguranca_Claude_V3.zip)**.
+1. Acesse a pasta [`sentinela-seguranca/`](sentinela-seguranca/) e baixe os arquivos-fonte. Para importar como Skill no Claude, compacte **somente essa pasta**, preservando o `SKILL.md` e a pasta `referencias/`.
 2. Abra o Claude e localize a área de personalização e gerenciamento de Skills (a localização exata pode mudar conforme o plano e a interface).
 3. Importe o arquivo ZIP como uma Skill personalizada.
 4. Abra um projeto ou forneça os arquivos do sistema que deseja auditar.
@@ -88,10 +91,10 @@ sentinela-security-auditor/
 │   ├── SKILL.md
 │   └── referencias/
 ├── downloads/
-│   └── Skill_Sentinela_Seguranca_Claude_V3.zip
+│   └── (ZIP instalável: publicação pendente)
 ├── docs/
 │   ├── PROMPT_COMPLETO_SENTINELA_CLAUDE_V3.md
-│   └── SENTINELA_3.0_Guia_Completo_de_Capacidades.pdf
+│   └── (PDF: publicação pendente)
 └── exemplos/
     └── exemplo-auditoria.md
 ```
